@@ -1,0 +1,9 @@
+.trend-icon {
+  font-size: 45px;
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  .trend-icon {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,40 @@
+.nav-item {
+  color: #212121;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+.nav-item-light {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+.nav-item:hover {
+  color: #ff0b37;
+}
+.nav-item-light:hover {
+  color: #ff3333;
+}
+@media screen and (max-width: 768px) {
+  .theme-icon {
+    font-size: 25px;
+  }
+  .logout-btn {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .theme-icon {
+    font-size: 40px;
+  }
+}
+
+.menu-btn {
+  font-size: 25px;
+}
+.nav-logo {
+  text-decoration: none;
+}
